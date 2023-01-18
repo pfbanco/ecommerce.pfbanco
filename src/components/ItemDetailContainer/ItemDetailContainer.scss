@@ -1,0 +1,126 @@
+.detail__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail__itemcontainer {
+    display: flex;
+    margin: 2rem 0;
+    text-decoration: none;
+    img {
+        border-radius: 16px;
+        box-shadow: 3px 0px 15px -10px #111;
+        margin: auto;
+        width: 400px;
+    }
+}
+
+.detail__detalles {
+    padding: .2rem .6rem;
+    margin: 3rem 0;
+    text-align: center;
+    p {
+        margin: 0;
+    }
+}
+
+.detail__itemPrecio {
+    font-size: 1.15rem;
+    text-align: left;
+}
+
+.detail__items {
+    font-size: 1.4rem;
+    color: #2c2c2c;
+    font-weight: 500;
+    text-align: left;
+}
+
+.detail__itemsDesc {
+    width: 300px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.detail__itemsDescDos {
+    width: 300px;
+    font-weight: 600;
+    text-align: left; 
+}
+
+@media (max-width: 900px) {
+
+    .detail__detalles {
+        padding: .2rem .6rem;
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    .detail__itemPrecio {
+        font-size: 1rem;
+    }
+
+    .detail__itemcontainer {
+        display: flex;
+        flex-direction: column;
+        img {
+            width: 400px;
+        }
+    }
+    .detail__items {
+        font-size: 1.4rem;
+        text-align: center;
+        margin: 0;
+    }
+
+    .detail__itemPrecio {
+        font-size: 1.15rem;
+        text-align: center;
+        margin: 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .detail__itemcontainer {
+        img {
+        width: 400px;
+        }
+    }
+    
+    .detail__detalles {
+        margin: 1rem 0;
+    }
+    
+    .detail__items {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .detail__itemcontainer {
+        img {
+            width: 300px;
+        }
+    }
+
+    .detail__detalles {
+        margin: .5rem 0;
+    }
+
+    .detail__items {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 380px) {
+    .detail__itemcontainer {
+        img {
+            width: 270px;
+        }
+    } 
+
+    .detail__items {
+        font-size: 1.1rem;
+    }
+}

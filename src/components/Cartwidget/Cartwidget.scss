@@ -1,0 +1,18 @@
+.boton__carrito {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    margin: 4px 2rem 0 0;
+    .item__total {
+        position: absolute;
+        cursor: pointer;
+        background-color: rgb(210, 45, 45);
+        color: white;
+        font-size: 10px;
+        padding: 3px 5.3px;
+        font-weight: 700;
+        border-radius: 100%;
+        transform: translate(-8px, -4px);
+    }
+}

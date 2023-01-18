@@ -9,6 +9,16 @@ import Initial from './pages/Initial';
 import reportWebVitals from './reportWebVitals';
 
 const firebaseConfig = {
+  apiKey: "AIzaSyBWxV35-gVbLXT7WAkw2TS-gGFffJC5DIQ",
+  authDomain: "ecommerce-coderhouse-ac4ed.firebaseapp.com",
+  projectId: "ecommerce-coderhouse-ac4ed",
+  storageBucket: "ecommerce-coderhouse-ac4ed.appspot.com",
+  messagingSenderId: "832061315952",
+  appId: "1:832061315952:web:fe5fce286d4e17c2b44db5",
+  measurementId: "G-735Z5DK3DG"
+};
+
+/*const firebaseConfig = {
   apiKey: "AIzaSyDJXuQB70tWF-zS_sJh9_qF3mA466_vyFQ",
   authDomain: "storeog-coderhouse.firebaseapp.com",
   projectId: "storeog-coderhouse",
@@ -16,7 +26,7 @@ const firebaseConfig = {
   messagingSenderId: "378136336685",
   appId: "1:378136336685:web:b2040638898c53eaa5dba4",
   measurementId: "G-QJ0SKV1R1S"
-};
+};*/
 
 initializeApp(firebaseConfig);
 

@@ -12,7 +12,7 @@ const Navbar = () => {
     useEffect(() => {
         const db = getFirestore();
         const itemCollection = collection(db, 'menus');
- 
+
         getDocs(itemCollection).then(res => setData(res.docs.map(product => ({name: product.name, ...product.data()}))) );
         }, [])
 

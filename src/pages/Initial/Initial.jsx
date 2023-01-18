@@ -1,5 +1,4 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import { Menus } from '../../mocks';
 
 import CartProvider from '../../context/CartContext'
 
@@ -18,7 +17,7 @@ const Initial = () => {
         <Layout>   
             <BrowserRouter>
                 <CartProvider>
-                    <Navbar menus={Menus} />
+                    <Navbar/>
                     <Routes>
                         <Route exact path='/' element={<Home />} />
                         <Route exact path='/categoria/:categoriaid' element={<Itemlistcontainer />}/>
